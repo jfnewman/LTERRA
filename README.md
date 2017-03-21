@@ -16,7 +16,8 @@ Newman, J. F. and A. Clifton, 2017: An error reduction algorithm to improve lida
 
 L-TERRA is comprised of two main scripts:
 
-test_L_TERRA_corrections_XX.py: Reads in lidar and reference data, loops through all combinations of corrections, and writes out TI mean absolute error (MAE) for each combination to a CSV file
+`test_L_TERRA_corrections_XX.py`: Reads in lidar and reference data, loops through all combinations of corrections, and writes out TI mean absolute error (MAE) for each combination to a CSV file
+
 apply_L_TERRA_corrections_XX.py: Reads in lidar data, applies user-selected set of corrections, and writes out corrected lidar TI values to a CSV file 
 
 The testing script should be used to determine optimal model combinations for a given dataset, while the application script should be used to apply the optimal model combination to a new dataset. Versions of these scripts are given for use with both WINDCUBE v2  (WC) and ZephIR 300 (ZephIR) data. 
